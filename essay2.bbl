@@ -1,0 +1,298 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{BPreport}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=96d4cdff8ed57e93e3b3d843cffe3af7}{%
+           family={BP},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {British Petroleum}%
+      }
+      \strng{namehash}{96d4cdff8ed57e93e3b3d843cffe3af7}
+      \strng{fullhash}{96d4cdff8ed57e93e3b3d843cffe3af7}
+      \strng{bibnamehash}{96d4cdff8ed57e93e3b3d843cffe3af7}
+      \strng{authorbibnamehash}{96d4cdff8ed57e93e3b3d843cffe3af7}
+      \strng{authornamehash}{96d4cdff8ed57e93e3b3d843cffe3af7}
+      \strng{authorfullhash}{96d4cdff8ed57e93e3b3d843cffe3af7}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fatal Accident Investigation Report: {I}somerization Unit Explosion Final Report}
+      \field{type}{Investigation Report}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://people.uvawise.edu/pww8y/Supplement/-ConceptsSup/Work/WkAccidents/BPTxCityFinalReport.pdf
+      \endverb
+      \verb{url}
+      \verb https://people.uvawise.edu/pww8y/Supplement/-ConceptsSup/Work/WkAccidents/BPTxCityFinalReport.pdf
+      \endverb
+    \endentry
+    \entry{calaw}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d51aaa3e50907a6858daf31498bff8da}{%
+           family={CalEPA},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {California Environmental Protection Agency}%
+      }
+      \strng{namehash}{d51aaa3e50907a6858daf31498bff8da}
+      \strng{fullhash}{d51aaa3e50907a6858daf31498bff8da}
+      \strng{bibnamehash}{d51aaa3e50907a6858daf31498bff8da}
+      \strng{authorbibnamehash}{d51aaa3e50907a6858daf31498bff8da}
+      \strng{authornamehash}{d51aaa3e50907a6858daf31498bff8da}
+      \strng{authorfullhash}{d51aaa3e50907a6858daf31498bff8da}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{New Regulations Improve Safety at Oil Refineries}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://calepa.ca.gov/new-regulations-improve-safety-at-oil-refineries/
+      \endverb
+      \verb{url}
+      \verb https://calepa.ca.gov/new-regulations-improve-safety-at-oil-refineries/
+      \endverb
+      \warn{\item Entry 'calaw' (essay2.bib): Invalid format '4' of date field 'date' - ignoring}
+    \endentry
+    \entry{csbreport}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ebcd706079d9c58c000e6c717e740502}{%
+           family={CSB},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {U.S. Chemical Safety}%
+        {Hazard Investigation Board}%
+      }
+      \strng{namehash}{ebcd706079d9c58c000e6c717e740502}
+      \strng{fullhash}{ebcd706079d9c58c000e6c717e740502}
+      \strng{bibnamehash}{ebcd706079d9c58c000e6c717e740502}
+      \strng{authorbibnamehash}{ebcd706079d9c58c000e6c717e740502}
+      \strng{authornamehash}{ebcd706079d9c58c000e6c717e740502}
+      \strng{authorfullhash}{ebcd706079d9c58c000e6c717e740502}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Investigation Report: {R}efinery Explosion and Fire}
+      \field{type}{Investigation Report}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb 	https://www.csb.gov/bp-america-refinery-explosion/
+      \endverb
+      \verb{url}
+      \verb https://www.csb.gov/bp-america-refinery-explosion/
+      \endverb
+    \endentry
+    \entry{exxonmobilreport}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ebcd706079d9c58c000e6c717e740502}{%
+           family={CSB},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {U.S. Chemical Safety}%
+        {Hazard Investigation Board}%
+      }
+      \strng{namehash}{ebcd706079d9c58c000e6c717e740502}
+      \strng{fullhash}{ebcd706079d9c58c000e6c717e740502}
+      \strng{bibnamehash}{ebcd706079d9c58c000e6c717e740502}
+      \strng{authorbibnamehash}{ebcd706079d9c58c000e6c717e740502}
+      \strng{authornamehash}{ebcd706079d9c58c000e6c717e740502}
+      \strng{authorfullhash}{ebcd706079d9c58c000e6c717e740502}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ExxonMobil Torrance Refinery: {E}lectrostatic Precipitator Explosion}
+      \field{type}{Investigation Report}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.csb.gov/exxonmobil-refinery-explosion-/
+      \endverb
+      \verb{url}
+      \verb https://www.csb.gov/exxonmobil-refinery-explosion-/
+      \endverb
+    \endentry
+    \entry{frontline_2010}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=66e9d91f0fa2b8bf79e42fae019ea4d8}{%
+           family={PBS},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Broadcasting Service}%
+      }
+      \strng{namehash}{66e9d91f0fa2b8bf79e42fae019ea4d8}
+      \strng{fullhash}{66e9d91f0fa2b8bf79e42fae019ea4d8}
+      \strng{bibnamehash}{66e9d91f0fa2b8bf79e42fae019ea4d8}
+      \strng{authorbibnamehash}{66e9d91f0fa2b8bf79e42fae019ea4d8}
+      \strng{authornamehash}{66e9d91f0fa2b8bf79e42fae019ea4d8}
+      \strng{authorfullhash}{66e9d91f0fa2b8bf79e42fae019ea4d8}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Spill}
+      \field{month}{10}
+      \field{title}{BP's Troubled Past}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://www.pbs.org/wgbh/pages/frontline/the-spill/bp-troubled-past/
+      \endverb
+      \verb{url}
+      \verb https://www.pbs.org/wgbh/pages/frontline/the-spill/bp-troubled-past/
+      \endverb
+    \endentry
+    \entry{Peek106}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=7876c1493417a5174cfa8a95213e30a5}{%
+           family={Peek},
+           familyi={P\bibinitperiod},
+           given={M\bibnamedelima K},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b328eff277df1e57332a42cfcab818be}{%
+           family={Cutchin},
+           familyi={C\bibinitperiod},
+           given={M\bibnamedelima P},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a427d4b1875804ad2ec675f69d9d543d}{%
+           family={Freeman},
+           familyi={F\bibinitperiod},
+           given={D\bibnamedelima H},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ef198be2bb3efb41a4cf2505c5f922d}{%
+           family={Perez},
+           familyi={P\bibinitperiod},
+           given={N\bibnamedelima A},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3eaae1771e1029355d7d9bd193e71d22}{%
+           family={Goodwin},
+           familyi={G\bibinitperiod},
+           given={J\bibnamedelima S},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {BMJ Publishing Group Ltd}%
+      }
+      \strng{namehash}{a78335851f14ccbcac4e74bacb7e7e16}
+      \strng{fullhash}{3111a3e54b4878812524a2ce5d99bbc7}
+      \strng{bibnamehash}{3111a3e54b4878812524a2ce5d99bbc7}
+      \strng{authorbibnamehash}{3111a3e54b4878812524a2ce5d99bbc7}
+      \strng{authornamehash}{a78335851f14ccbcac4e74bacb7e7e16}
+      \strng{authorfullhash}{3111a3e54b4878812524a2ce5d99bbc7}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background: Little research has been conducted on changes in perceived health after an industrial accident. Using data from an ongoing survey on stress and health in a petrochemical complex in Texas City, Texas, the associations of a petrochemical accident with perceived health changes were examined.Methods: The mean changes in perceived mental and physical health across pre-accident, within-accident, and post-accident categories were compared. The association of these categorical variables with the change in perceived mental and physical health using multiple regression was also examined.Results: Significant declines in both perceived mental and physical health were observed for the sample. Regression analyses showed that middle age, lower education level and reported damage in the neighbourhood were associated with decreases in perceived mental health. Lower education level, explosion impact, and distance from the explosion site were associated with decreases in perceived physical health.Conclusions: These results indicate that both pre-accident and within-accident variables, such as education level and explosion impact, are associated with decreases in perceived physical and mental health. Even a modest event within the range of accidents and disasters was shown to be associated with negative health outcomes for a population-based sample.}
+      \field{issn}{0143-005X}
+      \field{journaltitle}{Journal of Epidemiology \& Community Health}
+      \field{number}{2}
+      \field{title}{Perceived health change in the aftermath of a petrochemical accident: an examination of pre-accident, within-accident, and post-accident variables}
+      \field{volume}{62}
+      \field{year}{2008}
+      \field{pages}{106\bibrangedash 112}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1136/jech.2006.049858
+      \endverb
+      \verb{eprint}
+      \verb https://jech.bmj.com/content/62/2/106.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://jech.bmj.com/content/62/2/106
+      \endverb
+      \verb{url}
+      \verb https://jech.bmj.com/content/62/2/106
+      \endverb
+    \endentry
+    \entry{telosreport}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=796335243edb9cb7f963e8f5397e6639}{%
+           family={Telos},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {The Telos Group}%
+      }
+      \strng{namehash}{796335243edb9cb7f963e8f5397e6639}
+      \strng{fullhash}{796335243edb9cb7f963e8f5397e6639}
+      \strng{bibnamehash}{796335243edb9cb7f963e8f5397e6639}
+      \strng{authorbibnamehash}{796335243edb9cb7f963e8f5397e6639}
+      \strng{authornamehash}{796335243edb9cb7f963e8f5397e6639}
+      \strng{authorfullhash}{796335243edb9cb7f963e8f5397e6639}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{BP Texas City Site Report of Findings: {T}exas City's Protection Performance, Behaviors, Culture, Management, and Leadership}
+      \field{type}{Internal Report}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bloximages.newyork1.vip.townnews.com/galvnews.com/content/tncms/assets/v3/editorial/6/cb/6cb6d830-d239-11e4-9afa-2f2f90912f92/5511818abc022.pdf.pdf
+      \endverb
+      \verb{url}
+      \verb https://bloximages.newyork1.vip.townnews.com/galvnews.com/content/tncms/assets/v3/editorial/6/cb/6cb6d830-d239-11e4-9afa-2f2f90912f92/5511818abc022.pdf.pdf
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{frontline2010}
+\endrefsection
+\endinput
+
