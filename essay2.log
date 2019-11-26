@@ -1,14 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.11.14)  25 NOV 2019 13:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  26 NOV 2019 00:18
 entering extended mode
- \write18 enabled.
- %&-line parsing enabled.
-**essay2.tex
-(./essay2.tex
-LaTeX2e <2019-10-01> patch level 1
-(/usr/share/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+**./essay2.tex
+(essay2.tex
+LaTeX2e <2018-12-01>
+(G:\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(G:\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -22,21 +20,21 @@ File: size12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+(G:\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+(G:\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(G:\MiKTeX\tex/generic/oberdiek\ifpdf.sty
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(G:\MiKTeX\tex/generic/oberdiek\ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(G:\MiKTeX\tex/generic/ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -51,31 +49,32 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-)
-(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+
+(G:\MiKTeX\tex/latex/geometry\geometry.cfg))
+(G:\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/10/08 v1.3c Standard LaTeX Graphics (DPC,SPQR)
+(G:\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+(G:\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(G:\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+(G:\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-(/usr/share/texmf-dist/tex/latex/placeins/placeins.sty
+(G:\MiKTeX\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+(G:\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box27
 \beforetitleunit=\skip43
@@ -87,50 +86,56 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidthlast=\dimen116
 \titlewidthfirst=\dimen117
 )
-(/usr/share/texmf-dist/tex/latex/float/float.sty
+(G:\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count91
 \float@exts=\toks17
 \float@box=\box28
 \@float@everytoks=\toks18
 \@floatcapt=\box29
-)
-(/usr/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2019/10/15 3.35 The Babel package
+) (G:\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2018/11/13 3.27 The Babel package
 
-(/usr/share/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2019/10/15 3.35 Babel switching mechanism
+(G:\MiKTeX\tex/generic/babel\switch.def
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
 )
-(/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+(G:\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(G:\MiKTeX\tex/latex/babel-english\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-(/usr/share/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2019/10/15 3.35 Babel common definitions
+(G:\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2018/11/13 3.27 Babel common definitions
 \babel@savecnt=\count92
 \U@D=\dimen118
 
-(/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+(G:\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@dirlevel=\count93
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2019/08/31 v3.13a programmable bibliographies (PK/MW)
+(G:\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+(G:\MiKTeX\tex/generic/oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(G:\MiKTeX\tex/generic/oberdiek\infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(G:\MiKTeX\tex/generic/oberdiek\ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(G:\MiKTeX\tex/generic/oberdiek\ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -138,30 +143,27 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+(G:\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count94
 )
-(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(G:\MiKTeX\tex/latex/oberdiek\kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(G:\MiKTeX\tex/generic/oberdiek\kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(G:\MiKTeX\tex/generic/oberdiek\etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 )))
-(/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
+(G:\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count95
-
-(/usr/share/texmf-dist/tex/latex/logreq/logreq.def
+ (G:\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+)) (G:\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(/usr/share/texmf-dist/tex/latex/url/url.sty
+) (G:\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -216,20 +218,19 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip52
 \blx@bcfin=\read1
 \blx@bcfout=\write3
-\blx@langwohyphens=\language85
 \c@mincomprange=\count137
 \c@maxcomprange=\count138
 \c@mincompwidth=\count139
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2019/08/31 v3.13a biblatex localization (PK/MW)
+(G:\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'apa.dbx' found.
 
-(/usr/share/texmf-dist/tex/latex/biblatex-apa/apa.dbx
+(G:\MiKTeX\tex/latex/biblatex-apa\apa.dbx
 File: apa.dbx 2019/09/07 v8.0 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
@@ -329,45 +330,39 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
+(G:\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
+(G:\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
 \c@textcitecount=\count284
 \c@textcitetotal=\count285
 \c@textcitemaxnames=\count286
-\c@biburlbigbreakpenalty=\count287
-\c@biburlbreakpenalty=\count288
-\c@biburlnumpenalty=\count289
-\c@biburlucpenalty=\count290
-\c@biburllcpenalty=\count291
-\biburlbigskip=\muskip11
-\biburlnumskip=\muskip12
-\biburlucskip=\muskip13
-\biburllcskip=\muskip14
-\c@smartand=\count292
+\c@biburlnumpenalty=\count287
+\c@biburlucpenalty=\count288
+\c@biburllcpenalty=\count289
+\c@smartand=\count290
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
 
-(/usr/share/texmf-dist/tex/latex/biblatex-apa/apa.bbx
+(G:\MiKTeX\tex/latex/biblatex-apa\apa.bbx
 File: apa.bbx 2019/09/07 v8.0 APA biblatex references style
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count293
-\c@bbx:relatedtotal=\count294
+(G:\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count291
+\c@bbx:relatedtotal=\count292
 ))
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
 
-(/usr/share/texmf-dist/tex/latex/biblatex-apa/apa.cbx
+(G:\MiKTeX\tex/latex/biblatex-apa\apa.cbx
 File: apa.cbx 2019/09/07 v8.0 APA biblatex citation style
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
  overwriting.
@@ -387,43 +382,43 @@ Package biblatex Info: Redefining '\citeauthor'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
+(G:\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
 ))
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
 
-(/usr/share/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
+(G:\MiKTeX\tex/latex/biblatex-apa\english-apa.lbx
 File: english-apa.lbx 2019/09/07 v8.0 APA biblatex localisation
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
+(G:\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
 Package biblatex Info: ... file 'american-apa.lbx' found.
 
-(/usr/share/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
+(G:\MiKTeX\tex/latex/biblatex-apa\american-apa.lbx
 File: american-apa.lbx 2019/09/07 v8.0 APA biblatex localisation
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
 
-(/usr/share/texmf-dist/tex/latex/biblatex/lbx/american.lbx
-File: american.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
+(G:\MiKTeX\tex/latex/biblatex/lbx\american.lbx
+File: american.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
+(G:\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 ))))
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count295
-\@quotereset=\count296
-(./essay2.aux)
+\@quotelevel=\count293
+\@quotereset=\count294
+(essay2.aux)
 \openout1 = `essay2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -473,26 +468,26 @@ LaTeX Font Info:    ... okay on input line 12.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(G:\MiKTeX\tex/context/base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count297
+\scratchcounter=\count295
 \scratchdimen=\dimen119
 \scratchbox=\box30
-\nofMPsegments=\count298
-\nofMParguments=\count299
+\nofMPsegments=\count296
+\nofMParguments=\count297
 \everyMPshowfont=\toks19
-\MPscratchCnt=\count300
+\MPscratchCnt=\count298
 \MPscratchDim=\dimen120
-\MPnumerator=\count301
-\makeMPintoPDFobject=\count302
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
 \everyMPtoPDFconversion=\toks20
-) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (G:\MiKTeX\tex/latex/oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+(G:\MiKTeX\tex/latex/oberdiek\grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(G:\MiKTeX\tex/generic/oberdiek\kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -501,11 +496,7 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -513,19 +504,12 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'essay2.bbl' found.
- (./essay2.bbl
+ (essay2.bbl
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'calaw':
 (biblatex)                - Entry 'calaw' (essay2.bib): Invalid format '4' of d
 ate field 'date' - ignoring.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                frontline2010
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
 
 )
 Package biblatex Info: Reference section=0 on input line 12.
@@ -536,44 +520,49 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 16.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<BP_Texas_City_incident_diagram.png, id=11, 926.46124pt x 590.205pt>
+{C:/Users/write/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<BP_Texas_City_incident_diagram.png, id=10, 926.46124pt x 590.205pt>
 File: BP_Texas_City_incident_diagram.png Graphic file (type png)
 <use BP_Texas_City_incident_diagram.png>
 Package pdftex.def Info: BP_Texas_City_incident_diagram.png  used on input line
  30.
 (pdftex.def)             Requested size: 469.75502pt x 299.26245pt.
- [2 <./BP_Texas_City_incident_diagram.png (PNG copy)>]
+
+[2 <./BP_Texas_City_incident_diagram.png>]
+<Refinery_layout.png, id=14, 741.972pt x 430.0065pt>
+File: Refinery_layout.png Graphic file (type png)
+<use Refinery_layout.png>
+Package pdftex.def Info: Refinery_layout.png  used on input line 40.
+(pdftex.def)             Requested size: 469.75502pt x 272.24405pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 39.
+(Font)              <12> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 39.
+(Font)              <8> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 39.
- [3] [4] [5] [6] [7] [8] (./essay2.aux)
+(Font)              <6> on input line 44.
+ [3 <./Refinery_layout.png>] [4]
+[5] [6] [7] [8] (essay2.aux)
 Package logreq Info: Writing requests to 'essay2.run.xml'.
 \openout1 = `essay2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10241 strings out of 492167
- 182183 string characters out of 6131557
- 692943 words of memory out of 5000000
- 14503 multiletter control sequences out of 15000+600000
- 8850 words of font info for 31 fonts, out of 8000000 for 9000
+ 9858 strings out of 492946
+ 170761 string characters out of 3143495
+ 656109 words of memory out of 3000000
+ 13650 multiletter control sequences out of 15000+200000
+ 8850 words of font info for 31 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,6n,55p,1924b,3870s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on essay2.pdf (8 pages, 329883 bytes).
+ 52i,6n,55p,1926b,3864s stack positions out of 5000i,500n,10000p,200000b,50000s
+<G:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><G:/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb><G:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.p
+fb><G:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><G:/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><G:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb
+><G:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><G:/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmti12.pfb>
+Output written on essay2.pdf (8 pages, 1237383 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 63 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
