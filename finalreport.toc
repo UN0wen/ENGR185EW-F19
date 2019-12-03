@@ -1,0 +1,25 @@
+\contentsline {section}{Abstract}{3}% 
+\contentsline {section}{Introduction}{3}% 
+\contentsline {section}{Market overview: Price / Performance}{4}% 
+\contentsline {subsection}{Price Performance Chart and Key Attribute Matrix}{5}% 
+\contentsline {subsection}{Competition}{6}% 
+\contentsline {subsection}{Key Attributes}{6}% 
+\contentsline {subsection}{Price}{7}% 
+\contentsline {section}{Product Overview}{7}% 
+\contentsline {section}{Program Risk and Mitigation}{7}% 
+\contentsline {section}{Financial Summary}{8}% 
+\contentsline {subsection}{Key Milestones}{8}% 
+\contentsline {subsection}{Unit Cost Breakdown}{8}% 
+\contentsline {subsection}{Development Cost Breakdown}{10}% 
+\contentsline {subsection}{Break Even Quantity Analysis}{11}% 
+\contentsline {section}{Delivery Date and Key Milestones}{11}% 
+\contentsline {section}{Summary and Recommendations}{12}% 
+\contentsline {section}{Appendix}{14}% 
+\contentsline {subsection}{Unmet Need}{14}% 
+\contentsline {subsection}{Concept of Operations}{14}% 
+\contentsline {subsection}{Complete Specifications}{15}% 
+\contentsline {subsection}{Complete FMECA}{17}% 
+\contentsline {subsection}{Detailed Bill of Materials}{17}% 
+\contentsline {subsection}{Break Even Calculations}{19}% 
+\contentsline {subsection}{Risk Inventory Calculations}{19}% 
+\contentsline {subsection}{Detailed Work Breakdown Structure}{19}% 

@@ -2,6 +2,10 @@
 
 \usepackage[margin=1in]{geometry}
 \usepackage{graphicx}
+\usepackage{tocloft}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsecfont}{\bfseries\normalsize}
+\usepackage[utf8]{inputenc}
 \usepackage{placeins}
 \usepackage{titlesec}
 \usepackage{float}
@@ -11,16 +15,39 @@
 \titleformat*{\section}{\large\bfseries}
 \begin{document}
 		\title{Ethical Case Study: \\Texas City Refinery Explosion}
-
-	\author{Duy Duong\\UID: 505183737\\Discussion 1B\\3000 words}
-	\maketitle
+	\author{Duy Duong\\UID: 505183737\\Discussion 1B\\3200 words}
+	\date{}
+		\setlength{\parindent}{0pt}
+	\begin{flushleft}
+		Duy Duong\\UID: 505183737\\Discussion 1B\\3200 words
+	\end{flushleft}
 	
+	\begin{center}
+		{\Huge Ethical Case Study: \\Texas City Refinery Explosion}
+	\end{center}
+
+	\setlength{\parindent}{4em}
+	\setlength{\parskip}{1em}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=150mm]{explosion.jpg}
+	\end{figure}
+
+	\renewcommand*\contentsname{Table of Contents}
+	\tableofcontents
+	
+	\vspace{10mm}
+		\addcontentsline{toc}{section}{Abstract}
 	\begin{abstract}
-Placeholder
+	On March 23, 2005, the Texas City oil refinery owned by British Petroleum (BP) exploded, killing 15 people and injuring 180 more. Extensive investigation has been done on the technical failures leading to this disaster, but not sufficient scrutiny has been placed on the morality of the perpetrators. This case study examined the ethical failures in the actions of those involved and gave recommendations on future courses of actions based on these past failures. By looking at each engineering failure through the deontology ethical framework, the ethical lapses inherent in each failure were displayed. After identifying each shortcoming, a recommendation consistent with the core principles of the deontology framework was made. A complete analysis of the failures revealed a lax safety culture at BP as well as severe oversight by the responsible government agencies. The study also showed that more investment in safety training and enforced safety codes and supervision by the government would have been crucial to stop the accident from happening. These results confirmed a need for an increased awareness on safety failures as well as increased budget for safety equipment and training across all aging oil refineries in the U.S. in order to prevent similar incidents in the future.
 	\end{abstract}
 	\setlength{\parskip}{1em}
+
+	\addcontentsline{toc}{section}{Problem statement}
 	\section*{Problem statement}
-	The world runs on oil. Oil refining is an essential step to make the crude oil extracted from the ground usable in our daily lives, but the lack of any real innovation in the oil refining process in recent years meant that oil refineries sometimes still run on equipment decades old, prone to becoming a hazard. Accidents at these plants are common; as a consequence, their safety codes have only gotten stricter over the years. However, some plants still slip through the cracks and let truly disastrous accidents unfold: In 2005, an oil refinery in Texas City exploded, causing catastrophic damages both to the plant and the surrounding area as well as tragic loss of human life. The incident was a result of years of mismanagement as well as a lack of due diligence on the part of the engineers running the day to day operation. In order to stop similar accidents from happening in the future, we must utilize ethical analysis to find out the deciding factors that led to this disaster. From this information, 
+	The world runs on oil. Oil refining is an essential step to make the crude oil extracted from the ground usable in our daily lives, but the lack of any real innovation in the oil refining process in recent years meant that oil refineries sometimes still run on equipment decades old, prone to becoming a hazard. Accidents at these plants are common; as a consequence, their safety codes have only gotten stricter over the years. However, some plants still slip through the cracks and let truly disastrous accidents unfold: In 2005, an oil refinery in Texas City exploded, causing catastrophic damages both to the plant and the surrounding area as well as tragic loss of human life. The incident was a result of years of mismanagement as well as a lack of due diligence on the part of the engineers running the day to day operation. In order to stop similar accidents from happening in the future, ethical analysis must be utilized to find out the deciding factors that led to this disaster. From this information,  it is clear that stricter adherence and enforcement of safety codes is crucial to the continued operation of the Texas City oil refinery and all others like it across the U.S.
+	\addcontentsline{toc}{section}{Background}
 	\section*{Background}
 	
 	On March 23, 2005, an oil refinery in Texas City, owned by British Petroleum (BP), exploded and killed 15 people, injuring 170 more. The plant was built in 1934 and acquired by BP in 1999, at which point it had already fallen out of use for many years, with many crucial safety upgrades postponed by its previous owner (\cite{frontline_2010}). Part of maintenance work BP planned to do with the plant include an isomerization unit (ISOM), which converted low octane hydrocarbons (organic compounds of hydrogen and carbon) into high octane ones that can be blended into unleaded gasoline. This unit contained a raffinate splitter - a tower that separates light hydrocarbon components from heavy ones (such as octane), shown in Figure \ref{fig:ISOMUnit}. After the hydrocarbons are split, they travel in 3 directions: the heavy and light hydrocarbons are pumped to the heavy and light raff storage tank respectively, and the hot vapors travel to the blowdown drum, which acted as a cooler and waste disposal unit for these gases.
@@ -44,7 +71,8 @@ Placeholder
 	The result was a massive explosion that completely destroyed most of the trailers, killing 15 instantly and injuring 180 more, mostly in the trailer areas. The explosion shattered windows three quarters of a mile away and damaged tanks holding hazardous materials such as benzene, leaking them to the environment. The subsequent fire burned up to 19000 $m^2$ of the refinery, causing damages in the millions of dollars. The ISOM itself did not return to normal operation until two years later after sustaining severe damages in the fire. (\cite{csbreport})
 	
 	The disaster's impact is still felt years after the accident. A study conducted during and after the incident showed that it had led to a decline in the perceived mental and physical health of the people living in the area (\cite{Peek106}J). Lawsuits from the victims' families have followed BP, and they have had to pay out 1.6 billion USD in compensation. One notable lawsuit was Eva Rowe's, who demanded justice be brought on the company and forced them to release internal documents showing that they had prior knowledge of the issues plaguing the ISOM. These internal reports later proved to be vital in bringing to light the repeated failures that eventually led to the fatal incident.
-
+	
+	\addcontentsline{toc}{section}{Engineering failure}
 	\section*{Engineering failure}
 	The earliest of these reports unveiled dated back to 2002, three years before the disaster. In response to its obvious decline in the years after the plant's acquisition in 1999, Texas City refinery's director ordered an internal report on the mechanical integrity and safety of the plant. The study concluded that mechanical integrity was an enormous issue, and there were many vulnerabilities in the plant's infrastructure. It then proposed a budget increase of 235 million dollars to rectify these issues, one goal that was eventually not met (\cite{csbreport}) Many audits and studies followed, but no significant action was taken to conduct maintenance work on the plant, mainly due to continued budget cuts in 2003 and 2005. BP justified these budget cuts as "it had not made a contribution of profit proportionate to its capital consumption," while ignoring that the plant could not operate to its maximum capacity because of its aging and failing infrastructure.
 	
@@ -56,6 +84,7 @@ Placeholder
 	
 	The last egregious issue was a managerial one: the location of the trailers in the plants led to an unnecessary loss of life. In 2002, a site wide temporary siting analysis laid out the allowed parking spaces for trailers. However, work on an adjacent building meant that extra trailers were placed next to the ISOM in 2004, despite the team facilitating this change not having the required knowledge to assess the risk to the trailers in an event of an explosion. In the accident, 12 of the 15 fatalities were contractors inside the trailer situated closest to the ISOM, while the other 8 occupants of that trailer were seriously injured. All of the deaths came from blunt force trauma caused by the equipment in the trailers when the explosion sent a massive shockwave outwards. The trailers were never supposed to be put so close to the blast zone, and the loss of life would have been preventable had management went through the required review process before making decisions.
 	
+	\addcontentsline{toc}{section}{Ethical analysis}
 	\section*{Ethical analysis}
 	These engineering failures, in retrospective, were all preventable, yet nothing was done. Through ethical analysis, we can inspect the actions of the involved parties with an ethical framework to  pinpoint the moral failures that led to these devastating consequences and prevent these decisions from repeating. Deontology, or duty ethics, is one of these frameworks: this approach to normative ethics states that actions are morally right as long as they follow a specific set of moral rules. These rules, also known as maxims, must follow two core principles - the universality principle and the reciprocity principle. Based on these maxims, we can categorically define each action as right or wrong independent of their consequences.
 	
@@ -67,16 +96,22 @@ Placeholder
 		
 	The final factor contributing to the disaster's catastrophic damages was the irresponsible approval of trailer parking spaces near the ISOM, which directly led to most of the deaths and injuries in the explosion. This approval was also an ethical failure: management did not disclose their lack of knowledge to assess the risks associated with the trailer placements to the workers living in those trailers, and went against procedure to accelerate the approval process (\cite{csbreport}). The maxims the plant management followed was that of "Contract workers don't need to know the full details of their work situation" and "Accelerating work is more important than following required procedures." These former maxim fails the reciprocity principle as it treats the contracted workers as mere tools to an end. Lacking knowledge of the potential dangers associated with their trailer placements, the workers were stripped of the choice to report the issue or potentially leaving the site. The latter maxim - "Accelerating work is more important than following required procedures"  -  also fails to follow one of the core principles of deontology, this time the universality principle. Since these procedures are created to add multiple layers of supervision as well as engineering input to ensure that there are no critical errors in the final decision, following them is always slower than just directly making decisions without thinking of the consequences. Therefore, universalizing this maxim means that nobody would follow due process anymore, completely eliminating the purpose of these procedures and causing a contradiction. Following duty ethics, the management's hasty and irresponsible decision was morally condemnable, and the explosion would have been much less severe had they follow due process and not rush to decisions outside of their expertise.
 	
+	\addcontentsline{toc}{section}{Recommendations}
 	\section*{Recommendations}
 	There were a multitude of actions that should have been done to stop the disaster from happening, all adhering to deontological principles. For a start, BP should have listened to their engineers' recommendations presented in the internal reports spanning years before the accident. Had their concerns been heard, the plant's engineers would have had the budget needed to update its aging infrastructure. The working alarm systems would have alerted operators to an anomaly in the plant's operation and gave them ample time to resolve the issue. This action on BP's part would have followed the maxim "safety before profits," which is easily universalizable . 
 	
-	Additionally, the lax safety culture at BP played a major role in the accident, so further training should have been conducted to enforce the safety first mindset across their employees. Engineers should have been heavily penalized for not following safety procedures, and management should not have been able to make sweeping changes without a complete understanding of the consequences through an external review process. Otherwise, the workers should have been informed of the directors' lack of knowledge regarding their trailer placement. This action would have followed the reciprocity principle of deontology as it treats the workers no longer as a mere tool but rational beings who can form their own decisions. 
+	Additionally, the lax safety culture at BP played a major role in the accident, exemplified by engineers not following the required Pre Startup Safety Procedure, as well as management not going through the review process before making changes. Further training should have been conducted to enforce the safety first mindset across their employees, making sure that their actions conform to the "safety is the most important thing" maxim, which was shown to be an universalizable maxim. Furthermore, engineers should have been heavily scrutinized and penalized for not following safety procedures, and management should not have had the power to make any changes without a complete understanding of the consequences through an external review process. 
 	
-	The safety issues were further compounded by a lack of supervision by governmental agencies, specifically OSHA (Occupational Safety and Health Administration), who continued to let the plant operate despite its obvious safety failings. To prevent similar accidents from happening in the future, there must be stricter safety requirements for oil refineries and routine inspections to ensure the application of these requirements across the nation. Furthermore, plants with bad track records such as the Texas City refinery must be heavily scrutinized and forced to stop operating after any accident until they have shown clear improvements, which would minimize the chances of similar situations from happening in the future. If this regulation had been in place before the Texas City explosion, the refinery would have been forced to renovate after its various failures in the years beforehand, stopping the disaster from ever happening.
+	At the very least, the workers should have been informed of the directors' lack of knowledge regarding their trailer placement. Had they been given this information, the workers could have put pressure on the management to conform to safety standards and value their lives, or they could have informed the appropriate authorities that could stand up in their behalf. Informing the workers would have followed the reciprocity principle of deontology as it treats them no longer as a mere tool but rational beings who can form their own decisions. 
 	
+	Ultimately, this disaster would not have happened if everyone involved followed due process and adhere to standard safety codes. However, a complete lack of supervision by governmental agencies, specifically OSHA (Occupational Safety and Health Administration), meant that the plant was allowed to continue operating despite its obvious safety failings. To prevent similar accidents from happening in the future, there must be stricter safety requirements for oil refineries and routine inspections to ensure the application of these requirements across the nation. Furthermore, plants with bad track records such as the Texas City refinery must be heavily scrutinized and forced to stop operating after any accident until they have shown clear improvements, which would minimize the chances of similar situations from happening in the future. If this regulation had been in place before the Texas City explosion, the refinery would have been forced to renovate after its various failures in the years beforehand, stopping the disaster from ever happening.
+	
+	\addcontentsline{toc}{section}{Conclusion}
 	\section*{Conclusion}
 	The Texas City refinery explosion was a foreseeable and preventable event. Lives were lost because of egregious ethical lapses on the part of multiple parties, and the accident would not have happened were any of the involved parties adhere to the core principles of deontology. In the years since, many new regulations aiming to improve safety in oil refineries have been introduced (\cite{calaw}), although only to limited success: In 2015, almost the exact same situation played out in an ExxonMobil oil refinery in Torrance, CA. Due to a lack of oversight, aging equipment in this refinery degraded and caused an explosion that sent thousands of pounds of hydrofluoric acid into the surrounding area (\cite{exxonmobilreport}). It is sufficient to say that our attempts to ensure the safety of oil refineries so far have been ineffective - the inherently dangerous nature of fossil fuels being stored in confined areas with high heat is still too big of a blockade for us to create any meaningful attempts forward. It is perhaps in our best interest to stop holding onto the relics of the past; forcing the closure or renovation of refineries that are too old might be costly in the short term, but it might be our best bet yet to prevent the unnecessary loss of lives from these accidents.
 	
+	\newpage
+	\addcontentsline{toc}{section}{References}
 	\printbibliography
 	%\section*{Sources}
 	% https://www.pbs.org/wgbh/pages/frontline/the-spill/bp-troubled-past/
@@ -85,7 +120,7 @@ Placeholder
 	%https://www.nytimes.com/2010/07/13/business/energy-environment/13bprisk.html?pagewanted=all
 	%https://www.propublica.org/article/blast-at-bp-texas-refinery-in-05-foreshadowed-gulf-disaster
 	%https://bloximages.newyork1.vip.townnews.com/galvnews.com/content/tncms/assets/v3/editorial/6/cb/6cb6d830-d239-11e4-9afa-2f2f90912f92/5511818abc022.pdf.pdf
- %	https://www.nytimes.com/2009/10/31/business/31labor.html 
+   %https://www.nytimes.com/2009/10/31/business/31labor.html 
 	% https://jech.bmj.com/content/62/2/106
 	%https://calepa.ca.gov/new-regulations-improve-safety-at-oil-refineries/
 
