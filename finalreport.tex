@@ -13,10 +13,11 @@
 \usepackage{booktabs}% http://ctan.org/pkg/booktabs
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
 \usepackage{tabularx}
-
+\usepackage{ltablex}
+\renewcommand{\tabularxcolumn}[1]{>{\small\raggedright\arraybackslash}m{#1}}
 \begin{document}
 	\title{BottleGuard\\Final Report}
-	\author{Duy Duong\\UID: 505183737 \and Alex Best \and Nayiree Dahyet \and Samritha Nagesh \and Jesus Martin \and Joshia Iglesia \and Timothy Yu}
+	\author{Duy Duong\\UID: 505183737 \and Alex Best\\UID: 404987130 \and Nayiree Dahyet \\ UID: 805361182 \and Samritha Nagesh \\UID: 505104679\and Jesus Martin \\UID: 605358449 \and Joshia Iglesia\\UID: 704980453 \and Timothy Yu\\UID: 304817925}
 	\date{\today}
 	\maketitle
 
@@ -78,17 +79,20 @@
 \end{figure}
 	\addcontentsline{toc}{subsection}{Competition}
 	\subsection*{Competition}
-	The top competitors for Bottleguard are Kwiktop and a pack of sticky notes. Kwiktop is a combination lock that prevents access to the beverage without the combination. This product does not allow the user to easily share the beverage because the user is locking the bottle and nobody except the user could drink. If the user does not lock the bottle, other person may assume that can take the beverage without knowing that the user did not want to share. The sticky notes are cheap and can be used in every bottle. However, this solution does not allow the user to share or not share without physical intervention. If the user had a no sharing note but now wants to share, the user has to change the note, which sometimes will be complicated because the user is not in that place at that time. Also, the notes will not notify the user when someone is taking the beverage.
+	The top competitors for BottleGuard are Kwiktop and a pack of sticky notes. Kwiktop is a combination lock that prevents access to the beverage without the combination. This product does not allow the user to easily share the beverage because the user locks the bottle, making it impossible to drink without the combination. If the user does not lock the bottle, another person may assume that the user wants to share, whether or not that is the user’s actual desire. 
 	
-	The competitive advantage that Bottleguard has over its competitors is the ability to express willing to share or not share the beverage. With the app, the user only needs to press one button to tell others that they can drink the beverage, or that they are not allowed to drink. This ability that the user has, added to a notification every time someone is opening the bottle and a price that is not as high as the price of other products gives Bottleguard a good place in the Price Performance chart, above the linear fit. The linear fit is decreasing since the performance of the sticky notes is better than the performance of the rest of the competitors, and the price is lower. 
+	The sticky notes are cheap and can be used on every bottle. However, this solution does not allow the user to change their sharing preferences without physical intervention. If the user had a no sharing note but now wants to share, the user has to physically remove the note, which will not work if the user is away from the bottle. Additionally, the notes will give no notification to the user of whether or not someone is, or has, taken the beverage. 
+	
+	The competitive advantage that BottleGuard has over its competitors is the ability to allow the user to express their desire, or lack thereof, to share their beverage. With the app, the user only needs to press one button to tell others that they can drink the beverage, or that they are not allowed to drink.  Being able to remotely change one’s sharing preferences and receive notifications when the bottle is accessed, in addition to BottleGuard’s competitive pricing, gives BottleGuard a high performance score and desirable location in the Price Performance chart, above the linear fit line. 
+	There are two lines of linear fit, depending on the competition being taken into account.  If looking at all the competitors listed in Figure \ref{fig:kam}, including the minifridge, a linear fit line of positive slope can be drawn.  However, should the minifridge be disregarded, a negative slope linear fit line results.  This reversal of slope direction is due to the fact that the fridge, sans the price, is a very competitive solution to the unmet need.  The fridge makes sharing easy as it is as simple as opening a fridge door, and it has a strong ability to fit nearly any size beverage container.  However, when pricing is taken into account, the minifridge becomes much less viable.  Therefore, should one consider that the fridge is no longer a competitor, a negatively sloped line is drawn due to the fact that sticky notes are extremely cheap and easy to use.
 	
 		\addcontentsline{toc}{subsection}{Key Attributes}
 	\subsection*{Key Attributes}
-	The unmet need story highlights the ability to share the beverage whenever the user wants to without being physically present, therefore ease of sharing is the most important key attribute. Without this attribute, the user is unable to express willing to share or not share the beverage. If the user is willing to share but did not tell anyone, a person who wants to take the beverage will have to ask for permission first or will not take the drink assuming no permission, which could be inconvenient for the user. But if the user do not want to share and did not notify others, they could take the beverage assuming permission is given. Next, the access notification is an important attribute to look for in the product because without access notification the user would not know when someone is taking beverage without permission. Following access notification comes universal fit. This attribute allows the user to use the product in a variety of bottles with different cap sizes, which allows the user to enjoy different beverages without having to buy different products for different bottles. Finally, compactness allows the user to use the product without taking too much space in the fridge or any place where the user keeps the bottle.
+	The unmet need story highlights the ability to share the beverage whenever the user wants to without being physically present, therefore \textbf{ease of sharing} is the most important key attribute. Without this attribute, the user is unable to express their desire to share the beverage or not. If the user is willing to share but did not tell anyone, a person who wants to take the beverage will have to ask for permission first, or will not take the drink assuming no permission is needed, which could be inconvenient for the user. But if the user does not want to share and did not notify others, those others could take the beverage assuming permission is given. Next, \textbf{access notification} is an important attribute to look for in the product because without access notification, the user would not know when someone is taking beverage without permission. Following access notification comes \textbf{universal fit}. This attribute allows the user to use the product on a variety of bottles with different cap sizes, which allows the user to enjoy different beverages without having to buy different products for different bottles. Finally, \textbf{compactness} allows the user to use the product without taking up too much space in the fridge or any place where the user keeps the bottle.
 	
 		\addcontentsline{toc}{subsection}{Price}
 	\subsection*{Price}
-	All products are a one time purchase except for the sticky notes pack, which has to be bought when the pack is finished. Since Bottlecap battery is rechargeable, there is no need to buy extra batteries or replacements for the device. Also, the competitors  do not require parts replacement. This means that the price is the total amount that the user will have to spend to use the products. 
+	The prices shown in the figures above are essentially all one time purchase calculations.  All competitors are a one time purchase that do not require any part replacements. The only exception is for the sticky notes pack, which has to be bought again when the pack is finished. However, due to the large amount of sticky notes that can come in one pack, the recurring price of buying new sticky notes was not calculated in the total price as one could probably get away with buying about one pack a year. Since BottleGuard’s batteries are rechargeable, there is no need to buy extra batteries or replacements for the device. Therefore giving BottleGuard a one time purchase price as well.  
 	
 			\addcontentsline{toc}{section}{Product Overview}
 	\section*{Product Overview}
@@ -165,11 +169,10 @@ Our three engineering teams (Software, Electrical, and Mechanical) will work tow
 	\addcontentsline{toc}{section}{Summary and Recommendations}
 	\section*{Summary and Recommendations}
 		
-		Nowadays, most young adults share their living spaces with roommates, or friends and this includes sharing the refrigerator. Some of them, like the case with our customer Bailey, want to share their beverages. However, they also like to control the sharing process including the times they want to share and the times they don’t. As illustrated in the previous sections, Bottle-Guard is the best fit. 
+		Given rising housing costs these days, most young adults live with other roommates or friends in a situation that usually involves sharing a refrigerator. Some of them, like in Bailey’s case, want to share their beverages. However, they also like to control the sharing process and dictate when they want to share and when they do not. As illustrated in the previous sections, \textbf{BottleGuard} is the best fit to address these needs. BottleGuard stands strong amongst other competitors, enabling its customers to display their intentions and share their drinks with minimal fuss. This happens through a simple app that controls the red or green light shown on top of the device, without the need of physical attendance by the customer. Most importantly, it provides the customer with flexibility — the ability to arm the device through a simple touch of a button on a phone app. Moreover, BottleGuard will send notifications through the app to the customer when someone tries to open the cap without asking for permission (or when the bottle is on the “not sharing” mode). Additionally, an alarm sound will be triggered when someone opens the bottle without permission. It is important to mention that our device is strategically designed with a smart sensor so as to not give false notification if someone moves the bottle or relocates it within the fridge. Lastly, as illustrated in the previous sections, our product fits most standard caps and is compact so it does not take much space in the fridge. 
 		
-		Bottle-Guard stands strong among other competitors through helping the customers in the process of sharing of their drinks by showing to others the customers intention of sharing or not. That will happen through a simple APP that controls the red or green light shown on top of the device without the need of the physical attendance of the customer. Most importantly, it gives the customer the flexibility, by just a simple touch of a button using an APP on the phone, to give permission to share the drinks. Moreover, Bottle-Guard will simply send notification through an APP to the customer when someone tries to open the cap without asking for permission (or when the bottle is on the “not sharing” mode). Plus the alarms will go on when someone opens the bottle without permission. It is important to mention that our device is perfectly designed with its smart sensor to not give false notification if someone just moves the bottle or relocates it in the fridge. In addition, as illustrated in the previous sections, our product fits most standard caps and it is compact, does not take much space in the fridge. 
-		
-		Studies show that almost 79 million U.S. adults are living in shared household. Which increases our buyers market. Moreover, our device will help people not only in their houses, but also in their working place where they share the refrigerator with coworkers which will the increasing number of targeted customers. With that being said, plus our financial analysis, we believe that Bottle-Guard will succeed in the marketplace financially. Bottle-Guard will be the new product that will help customers share their drinks and control the process of sharing.
+		Studies show that almost 14 million U.S. adults are living in a shared household [CITE], illustrating that there exists a large market for our product to penetrate. Moreover, our device will not only help people living at home, but also employees who work in offices that contain shared refrigerators, further increasing our number of targeted customers. With all these components considered, we believe that BottleGuard will succeed in the marketplace financially. With your investment of \$275,000, you can help bring BottleGuard to reality and help countless customers share their drinks in a manageable fashion.
+
 		
 		\newpage
 		\addcontentsline{toc}{section}{Appendix}
@@ -196,34 +199,83 @@ Our three engineering teams (Software, Electrical, and Mechanical) will work tow
 		\addcontentsline{toc}{subsection}{Complete Specifications}
 		\subsection*{Complete Specifications}
 
-	\begin{figure}[H]
-	\centering
-	\includegraphics[width=\textwidth]{specs.png}
-\end{figure}
+		
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{specs.png}
+		\end{figure}
 
 		\addcontentsline{toc}{subsection}{Complete FMECA}
 		\subsection*{Complete FMECA}
 
-			\addcontentsline{toc}{subsection}{Detailed Bill of Materials}
-	\subsection*{Detailed Bill of Materials}
-	\begin{table}[H]
-		\includegraphics[width=\textwidth]{bom_large.png}
+		\begin{tabularx}{\textwidth}{ | X | X | X | >{\small}c | >{\small}c | >{\small}c | >{\small}c | X | }
+			\hline
+			& \textbf{Cause} & \textbf{Effect} & \rotatebox{90}{\textbf{Severity}} & \rotatebox{90}{\textbf{Probability}} & \rotatebox{90}{\textbf{Detectability}} & \textbf{RPN} & \textbf{Mitigation}   \\ \hline
+			Cap part of device can come into direct contact with liquid
+			& Device is never washed & Mold forms due to improper cleaning, customer gets poisoned & 5.0 & 4.0 & 8.0 & 160 & Warning in manual to properly wash device \\ \hline
+			Device is not heat resistant & Device is put in oven  & Device's enclosure melts down, batteries explode, causing a fire that burns down their house and causing injuries
+			& 7.0 & 2.0 & 8.0 & 112 & Warning in manual to avoid placing device in oven \\ \hline
+			Device contains metal & Device is put in microwave & Device's batteries and metal components spark and potentially explode and cause a fire & 7.0 & 2.0 & 8.0 & 112 & warning in manual to avoid placing device in microwave oven   \\ \hline
+			Device can roll around on the floor & Device has round edges & Customer steps on device and slips, falling to their death
+			& 10.0 & 1.0 & 10.0 & 100 & Warning in manual informing users not to leave device lying on floor as it could be a slipping hazard or painful to step on  \\ \hline
+			Device is easily accessible to small children & Child in house opens the fridge and chew on the device & Child chokes on the device and dies & 10.0 & 1.0 & 8.0 & 80 & Add choking hazard warning in manual
+			\\ \hline
+			Device has low battery life & Battery runs out of power before the drink is finished & Cap no longer warns of attempted use but can't be recharged because it has replaced the bottle's orginical cap & 1.0 & 8.0 & 10.0 & 80 & Device sends notification to user's phone at low battery charge \\ \hline
+			One or more materials are allergy-inducing & Customer exposed to device is allergic to material & Customer receives severe allergic reaction that is irritating and requires medical attention & 7.0 & 1.0 & 10.0 & 70 & Add a list of materials used in the manual as well as on the packaging of the device  \\ \hline
+			Battery has no way to stop charging once it is at full capacity & Battery overcharged & Battery possibly explodes or lights on fire, injuring the customer and causing a fire & 7.0 & 1.0 & 10.0 & 70 & Modern charging circuits stop the charge when the battery is full \\ \hline
+			Device has no mechanism of detecting hostile intentions & Evil roommate repeatedly take off cap to set off continuous stream of notifications & Customer is spammed with notifications & 1.0 & 5.0 & 10.0 & 50 & Customer can stop notifications from the device in the app
+			 \\ \hline
+			Device is thrown or swung  & Roommates get mad at customer, take out device and use it as a weapon & Customer is injured from device
+			& 5.0 & 1.0 & 10.0 & 50 & Add warning against throwing device in instruction manual  \\ \hline
+			Device contains access points for water & Charging port not covered
+			& Customer spills water into the port, device stops working & 1.0 & 4.0 & 10.0 & 40.0 & Add a rubber cover for the charging port   \\ \hline
+			Device's container is damaged & The customer exposes the device to cold temperatures (below 0C) when they try to put their devices in the freezer. & The electronics are damaged and the device no longer works
+			& 1.0 & 3.0 & 10.0 & 30 & Add a warning sign against usage in cold temperatures in the user manual
+			 \\ \hline
+			Device circuitry is not properly insulated from outside environment & Poor manufacturing/design  & Customer spills water on device, device stops working & 1.0 & 3.0 & 10.0 & 30 & Add insulation testing during manufacture to make sure that the device is properly insulated  \\ \hline
+			As IOT device, it is hacked into & IOT devices are susceptible to outside hacking & Hacker changes the code and device loses its original function. & 1.0 & 2.0 & 10.0 & 20 & Carry out pentests to make sure that the software is secure  \\ \hline
+			Battery Explodes & Battery is not properly manufactured & Battery Acid melts the bottom of the cap, falling into the drink and poisons the user
+			& 5.0 & 1.0 & 3.0 & 15 & Warning in manual to check device for damages \\ \hline
+		\end{tabularx}
 		
-		\caption{Detailed BOM including product number or links to the source vendors. Mouser refers to Mouser.com.
-		}
-	\end{table}
-			\subsection*{Detailed Work Breakdown Structure}
-	\begin{table}[H]
+		\addcontentsline{toc}{subsection}{PCB Quotes}
+		\subsection*{PCB Quotes}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\textwidth]{quote1.png}
+		\end{figure}
+		\begin{figure}[H]
 		\centering
-		\includegraphics[width=\textwidth]{wbs_large3.png}
-		\caption{ Detailed WBS including all detailed salary calculations and manager hours}
-	\end{table}
+		\includegraphics[width=\textwidth]{quote2.png}
+		\caption{Quotes for PCB fabrication}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\textwidth]{quote3.png}
+			\caption{Quote for PCB assembly}
+		\end{figure}
+		\addcontentsline{toc}{subsection}{Detailed Work Breakdown Structure}
+		\subsection*{Detailed Work Breakdown Structure}
+		\begin{table}[H]
+			\centering
+			\includegraphics[width=\textwidth]{wbs_large3.png}
+			\caption{ Detailed WBS including all detailed salary calculations and manager hours}
+		\end{table}
+		\addcontentsline{toc}{subsection}{Detailed Bill of Materials}
+		\subsection*{Detailed Bill of Materials}
+		\begin{table}[H]
+			\includegraphics[width=\textwidth]{bom_large.png}
+			
+			\caption{Detailed BOM including product number or links to the source vendors. Mouser refers to Mouser.com.
+			}
+		\end{table}
 		\addcontentsline{toc}{subsection}{Break Even Calculations}
 		\subsection*{Break Even Calculations}
 				\begin{table}[H]
 			\includegraphics[width=\textwidth]{breakeven.png}
 			
-			\caption{ Break even calculations including initial and first pass}
+			\caption{ Break even calculations including initial and first pass}
 		\end{table}
 		\addcontentsline{toc}{subsection}{Risk Inventory Calculations}
 		\subsection*{Risk Inventory Calculations}
@@ -231,7 +283,12 @@ Our three engineering teams (Software, Electrical, and Mechanical) will work tow
 			\includegraphics[width=\textwidth]{risk.png}
 			\caption{Detailed risk inventory calculations}
 		\end{table}
-		
-				\addcontentsline{toc}{subsection}{Detailed Work Breakdown Structure}
-
+	
+			
+	\addcontentsline{toc}{section}{References}
+	\section*{References}
+	\setlength{\parindent}{0pt}
+	U.S. Plastic Corporation. (2003). How do I know how to calculate a cap \& neck size? Retrieved from https://www.usplastic.com/knowledgebase/article.aspx?contentkey=625. 
+	
+	International Society of Beverage Technologists, Thread Specs Standard. Retrieved from https://www.bevtech.org/threadspecs.asp
 \end{document}
