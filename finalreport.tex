@@ -45,7 +45,7 @@
 	\tableofcontents
 		\vspace{10mm}
 		
-	\setlength{\parindent}{4em}
+	\setlength{\parindent}{2em}
 	\setlength{\parskip}{1em}
 		\pagebreak
 	\addcontentsline{toc}{section}{Abstract}
@@ -55,7 +55,7 @@
 
 		\addcontentsline{toc}{section}{Introduction}
 	\section*{Introduction}
-	\hspace{4em}Bailey is a college student who lives in an apartment with several roommates. They all share the same fridge, and some of the items within. Although she is generally fine sharing her drinks with others, sometimes Bailey would like to keep them to herself when she gets a soda that is difficult to find or when the drink is running out. Due to their busy schedules, however, she finds it difficult to communicate that with all of her roommates. She resents the fact that sometimes her roommates help themselves to her drinks without asking for permission first because they were not aware that she didn't want to share. Bailey would like a way to remind her roommates in the moment of whether or not she is willing to share. Additionally, she wants to know when someone tries to open the bottle and take her soda when she has not granted permission.
+	Bailey is a college student who lives in an apartment with several roommates. They all share the same fridge, and some of the items within. Although she is generally fine sharing her drinks with others, sometimes Bailey would like to keep them to herself when she gets a soda that is difficult to find or when the drink is running out. Due to their busy schedules, however, she finds it difficult to communicate that with all of her roommates. She resents the fact that sometimes her roommates help themselves to her drinks without asking for permission first because they were not aware that she didn't want to share. Bailey would like a way to remind her roommates in the moment of whether or not she is willing to share. Additionally, she wants to know when someone tries to open the bottle and take her soda when she has not granted permission.
 	
 	She has tried different methods of expressing her intentions, such as sticking Post-it notes on her bottles or sending a text message to their roommate group that she'd prefer if they didn't take her drink. However, these methods have not proven to be effective since text messages are often ignored or overlooked, and Post-it notes are prone to falling off the bottle. She finds a bottle lock called KwikTop but decides against using it since she understands that everyone’s schedule is different from hers, and such an inflexible method of keeping the drink to herself defeats the idea of sharing the drink, and can sour Bailey’s relationship with her roommates. Moreover, a bottle lock comes at a fixed size and can only fit on one type of bottle, while she wishes to share a variety of drinks that come in markedly different bottle sizes like soda bottles or milk jugs. IIdeally, she also wants something that does not take up much room in the fridge, as she only has a limited amount of fridge space allocated to her.
 	
@@ -79,7 +79,7 @@
 \end{figure}
 	\addcontentsline{toc}{subsection}{Competition}
 	\subsection*{Competition}
-	The top competitors for BottleGuard are Kwiktop and a pack of sticky notes. Kwiktop is a combination lock that prevents access to the beverage without the combination. This product does not allow the user to easily share the beverage because the user locks the bottle, making it impossible to drink without the combination. If the user does not lock the bottle, another person may assume that the user wants to share, whether or not that is the user’s actual desire. 
+	The top competitors for BottleGuard are KwikTop and a pack of sticky notes. Kwiktop is a combination lock that prevents access to the beverage without the combination. This product does not allow the user to easily share the beverage because the user locks the bottle, making it impossible to drink without the combination. If the user does not lock the bottle, another person may assume that the user wants to share, whether or not that is the user’s actual desire. 
 	
 	The sticky notes are cheap and can be used on every bottle. However, this solution does not allow the user to change their sharing preferences without physical intervention. If the user had a no sharing note but now wants to share, the user has to physically remove the note, which will not work if the user is away from the bottle. Additionally, the notes will give no notification to the user of whether or not someone is, or has, taken the beverage. 
 	
@@ -94,9 +94,51 @@
 	\subsection*{Price}
 	The prices shown in the figures above are essentially all one time purchase calculations.  All competitors are a one time purchase that do not require any part replacements. The only exception is for the sticky notes pack, which has to be bought again when the pack is finished. However, due to the large amount of sticky notes that can come in one pack, the recurring price of buying new sticky notes was not calculated in the total price as one could probably get away with buying about one pack a year. Since BottleGuard’s batteries are rechargeable, there is no need to buy extra batteries or replacements for the device. Therefore giving BottleGuard a one time purchase price as well.  
 	
-			\addcontentsline{toc}{section}{Product Overview}
+	\addcontentsline{toc}{section}{Product Overview}
 	\section*{Product Overview}
-
+		\addcontentsline{toc}{subsection}{Usage}
+	\subsection*{Usage}
+	The product is meant to replace the existing cap of a bottle and screws onto the top of the bottle itself. Once attached, the cap is activated through the app on the consumer’s mobile device using a Wi-Fi connection. The LED will indicate the sharing mode chosen by the consumer (Green means go, Red means no). If the BottleGuard is unscrewed during the no sharing mode, the consumer will receive an app notification which includes a time stamp and a sound from the speaker will alert any person in the vicinity.
+	
+	\addcontentsline{toc}{subsection}{Technical Details}
+	\subsection*{Technical Details}
+	\begin{figure}[H]
+		\includegraphics[width=\textwidth]{design.png}
+		\label{fig:des}
+		\caption{Side view of BottleGuard. All components except the Micro-USB cable are visible.}
+	\end{figure}
+	The BottleGuard features the following components:
+	\begin{itemize}
+		\item 	Circular PCB - holds all components
+		\item 	Wifi/Microcontroller chip - sends Wi-Fi notification
+		\item 	Gyroscope Module - checks to make sure there is no turning of the cap (checks for rotation every 0.5 secs)
+		\item 	RGB LED - blinks red or green for 0.1 seconds every second
+		\item 	Speaker - makes a noise when BottleGuard is moved if sharing is turned off
+		\item 	2 Coin Cell Batteries \& Battery Holder - rechargeable and powers unit for 10 days of average use (drink opened 3 times per day)
+		\item 	Micro-USB port - used to charge the batteries
+	\end{itemize}
+	\addcontentsline{toc}{subsection}{Access Detection and Notification}
+	\subsection*{Access Detection and Notification}
+	The gyroscope on the unit is built to detect movement in all 3 axes as well as object orientation. Initial setup will involve placing the BottleGuard on a level surface and calibrating the sensor by turning it in both directions at varying speeds. After initial setup, the device is ready to be used. 
+	
+	If the device is set to “no sharing” the gyroscope will check for rotation of the device every 0.5 seconds. The gyroscope does this by taking a current base value once activated and this value only changes if the device is rotated (as in the cap is opened from the bottle). All values are sent to the microcontroller to be evaluated by pre-programmed code. If there is a change detected, the microcontroller will detect this value change and send signals to the Wi-fi card as well as the speaker. The Wi-fi card will temporarily become active to send a wifi notification to the user’s phone through a web service cloud and the speaker will sound an alarm for 3 seconds. 
+	
+	\addcontentsline{toc}{subsection}{Initial Wi-Fi Setup and Notification Delivery}
+	\subsection*{Initial Wi-Fi Setup and Notification Delivery}
+	The initial setup of the device mainly involves using a mobile device to give the wifi chip preliminary data to connect to the home network. A similar method is observed in Google’s Home Mini speaker where the device itself will create an access point which allows the user to connect their phone to. Once connected, the user can copy over their home wifi settings and the device should be able to connect to the home wifi network. Likewise, the wifi chip on the BottleGuard is able to switch between receiving and transmitting which allows it to pair to the user’s phone and then connect to the home network in the same way the Google Home Mini does. When the app is opened, it will prompt to add a new device. When the BottleGuard is not setup yet, it will be programmed to default to a receiving state so that the consumer can connect to it using Wi-Fi and so that the app can copy over the wifi settings from the user’s phone (the app will prompt which network details to copy over to the BottleGuard). Once successful, the app will do some preliminary testing by asking the user to twist the cap multiple times to make sure notifications are working.
+	
+	\addcontentsline{toc}{subsection}{Mobile Application}
+	\subsection*{Mobile Application}
+	The app notification system utilizes an IOT method similar to other devices such as Nest thermostats and wifi humidity sensors but on a much simpler level. In context, IOT devices do not bear a large amount of programming or complex code and lean more on servers to do all task management and data processing. For example, a wifi thermostat only sends temperature information to the server and does no other calculation or process. Likewise, BottleGuard’s wifi chip only serves to send one kind of signal which is only when the bottle is opened and does not send any other data in order to save battery. Once the signal is sent to the server, it sends data to the app to notify the consumer on their mobile device. The data from the cloud only includes a simple time and date of the access to the beverage. 
+	
+	The app does not do any data processing and mostly serves to format any data in a way that is easy to read. The data is obtained from the server which provides the time and date data when the cap is opened. The app has 3 main sections for use with the BottleGuard:
+	
+	\begin{enumerate}
+		\item \textbf{Initial Device Setup} - This section involves the Wi-Fi and Gyroscope setups described in the previous sections and is used to setup the BottleGuard for the first time.
+		\item \textbf{Main Menu} - The main menu of the app has two buttons which are pressed by the user to indicate sharing or no sharing. Only one button can be pressed at a time It also shows the most recent time the BottleGuard was moved in a “no sharing” state. 
+		\item \textbf{History} - This section shows a list of the times that the BottleGuard was opened.
+	\end{enumerate}
+	
 	\addcontentsline{toc}{section}{Program Risk and Mitigation}
 	\section*{Program Risk and Mitigation}
 	In terms of consumer reception risk, there is a possibility that consumers will opt for the cheaper sticky notes or KwikTop instead. To mitigate this risk, we will market BottleGuard’s ease of sharing and ability to notify, which are attributes that are uncharacteristic of other products in its price vicinity. Other than that, we believe our asking price of \$25 should not significantly deter consumers from purchasing the product for any other reasons.
@@ -169,9 +211,12 @@ Our three engineering teams (Software, Electrical, and Mechanical) will work tow
 	\addcontentsline{toc}{section}{Summary and Recommendations}
 	\section*{Summary and Recommendations}
 		
-		Given rising housing costs these days, most young adults live with other roommates or friends in a situation that usually involves sharing a refrigerator. Some of them, like in Bailey’s case, want to share their beverages. However, they also like to control the sharing process and dictate when they want to share and when they do not. As illustrated in the previous sections, \textbf{BottleGuard} is the best fit to address these needs. BottleGuard stands strong amongst other competitors, enabling its customers to display their intentions and share their drinks with minimal fuss. This happens through a simple app that controls the red or green light shown on top of the device, without the need of physical attendance by the customer. Most importantly, it provides the customer with flexibility — the ability to arm the device through a simple touch of a button on a phone app. Moreover, BottleGuard will send notifications through the app to the customer when someone tries to open the cap without asking for permission (or when the bottle is on the “not sharing” mode). Additionally, an alarm sound will be triggered when someone opens the bottle without permission. It is important to mention that our device is strategically designed with a smart sensor so as to not give false notification if someone moves the bottle or relocates it within the fridge. Lastly, as illustrated in the previous sections, our product fits most standard caps and is compact so it does not take much space in the fridge. 
+		Given current rising housing costs, most young adults live with other roommates or friends in situations that usually involve sharing a refrigerator. Some of them, like in Bailey’s case, want to share their beverages. However, they also wish to control the sharing process and dictate when they want to share. As previously illustrated, \textbf{BottleGuard} is the best fit to address these needs. BottleGuard stands strong amongst other competitors by enabling its customers to display their intentions and share their drinks with minimal fuss.  Through a simple app, the customer can control the red or green light shown on top of the device, without the need of physical attendance. Most importantly, it provides them flexibility — the ability to clearly communicate their sharing intent through a simple touch of a button on a phone app.
 		
-		Studies show that almost 14 million U.S. adults are living in a shared household [CITE], illustrating that there exists a large market for our product to penetrate. Moreover, our device will not only help people living at home, but also employees who work in offices that contain shared refrigerators, further increasing our number of targeted customers. With all these components considered, we believe that BottleGuard will succeed in the marketplace financially. With your investment of \$275,000, you can help bring BottleGuard to reality and help countless customers share their drinks in a manageable fashion.
+		Moreover, BottleGuard relays accurate and timely notifications through the app to the customer when someone tries to open the cap without permission (or when the bottle is on “not sharing” mode)..As proven earlier, the device can withstand normal movements in the fridge without giving off false notifications due to our efficient utilization of the gyroscope. In addition, thanks to the alarm sound triggering, the person accessing the drink is further reminded of the owner’s desire not to share.. Lastly, as illustrated in the previous sections, our product fits most standard caps and is compact so it does not take much space in the fridge. 
+		
+		Studies show that almost 79 million U.S. adults are living in a shared household (Fry, 2018), illustrating that there exists a large market for BottleGuard to penetrate. Moreover, the device will also help employees working in offices that contain shared refrigerators, further increasing our number of targeted customers. Designed to meet customers’ needs, Taking all of these factors into consideration, it is evident that BottleGuard will succeed in the marketplace financially. With an investment of \$275,000, you can help bring BottleGuard to reality and be the first to tap into an unexplored market.
+		
 
 		
 		\newpage
@@ -204,7 +249,98 @@ Our three engineering teams (Software, Electrical, and Mechanical) will work tow
 		\centering
 		\includegraphics[width=\textwidth]{specs.png}
 		\end{figure}
+		\setlength{\parindent}{0pt}
+		\addcontentsline{toc}{subsection}{Proof of Concept}
+		\subsection*{Proof of Concept}
+		\subsubsection*{Power Consumption Calculations}
+		\begin{itemize}
+			\item Sensor - 1.71 V and 0.85mA
+			\item Speaker - 1.5 V and 2mA (transmitting only)
+			\item Wifi - 2.5 V and 70mA (transmitting only)
+			\item LED - 1.8V and 15 mA (never on during transmitting)
+			\item Battery - 3V and 620 mAh capacity
+		\end{itemize}
 
+		\textbf{Totals}:
+		\begin{itemize}
+			\item Total voltage is = 5.71 V = 2 batteries needed (3 V each)
+			\item Total Current is = 0.87mA idle / 70mA transmitting for 10s + 2mA sound for 3s
+			\item Total mAs (milli-Amp seconds) - 210 mAh x 60 mins x 60 secs x 2 batteries = 1,512,000 mAs 
+		\end{itemize}
+
+		
+		\textbf{Daily base consumption}
+		
+		Gyroscope will update position data every 0.5 seconds (172,800 times a day) for 0.1s:
+		\begin{center}
+			0.85 mA x 0.1s x 172,800 times daily = 14,688 mAs daily
+		\end{center}
+		
+		LED will turn on every second for 0.1 second which makes a blinking visual:
+		\begin{center}
+			15 mA x 0.1s x 86,400 times daily = 129,600 mAs daily
+		\end{center}
+		
+		\textbf{Bottle Opened Consumption}
+		
+		During transmission (when bottle is opened), wifi chip will transmit for 10 seconds and speaker will sound for 3s:
+		\begin{center}
+			70mA x 10s = 700 mAs (WiFi)
+		2mA x 3s = 6 mAs (Speaker)
+		\end{center}
+	
+		Assuming the bottle is opened 2 - 3 times a day, the average daily consumption would be:
+		\begin{center}
+			14,688 mAs + 129,600 mAs +  (700 mAs x 3 times) + (6 mAs x 3 times) = 146,388 mAs daily
+		\end{center}
+		
+		This means the battery will last at most:
+		\begin{center}
+			1,512,000 mAs total/ 146,388  mAs daily = 10.18 days per charge
+		\end{center}
+		
+		\subsubsection*{Gyroscope Tolerance Threshold}
+		The following test checks to make sure it is practically impossible to perfectly take off and replace the cap within the span of 0.5 seconds.
+		
+		\textbf{Methods}: Two standard bottles were tested to accurately capture real world objects that our product would be applied to. The first was a standard one gallon milk jug, filled $\frac{4}{5}$ths with water. The second was a standard 20 oz bottle, filled half-way through with water. In order for a bypass attempt to be successful, the bottle cap after opening must preserve its original orientation. 
+		
+		We performed two experiments to study the plausibility of a successful bypass attempt. In our first experiment, we sought to explore if it was possible to open a bottle in less than half a second. To do this, we attempted to open the bottles with tightly closed caps as fast as we could, with no regard for returning the bottle cap to its original orientation. Four trials were performed for each type of bottle. 
+		
+		In our second experiment, we sought to define whether or not bottles could be opened in less than half a second and returned to their original orientations so that the gyroscopes would not register any change. We used a similar approach as in our previous experiment, but took accuracy into account this time. Here, three trials were performed for each type of bottle. 
+		
+		\textbf{Results: }
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{|c|c|}
+				\hline
+				\textbf{Milk bottle (seconds)} & \textbf{Water bottle (seconds) } \\ \hline
+				0.51 &1.0 \\ \hline
+				0.52 & 1.36\\ \hline
+				0.52&1.34\\ \hline
+				0.90&1.20\\ \hline
+			\end{tabular}
+			\label{table:trial1}
+			\caption{Trial attempts to open bottle as fast as possible, without any regard for orientation.}
+
+		\end{table}
+				\begin{table}[H]
+			\centering
+			\begin{tabular}{|c|c|}
+				\hline
+				\textbf{Milk bottle (seconds)} & \textbf{Water bottle (seconds) } \\ \hline
+				2.44&
+				2.40\\ \hline
+				2.13&
+				2.24\\ \hline
+				1.45&
+				2.14\\ \hline
+			\end{tabular}
+		\label{table:trial2}
+			\caption{Trial attempts to open bottle as fast as possible while also returning it to the original position.}
+		\end{table}
+
+		\textbf{Analysis:} Our results indicate that even if accuracy is disregarded, it is likely not possible to open the bottle cap without triggering the notification (Table \ref{table:trial1}). While 3 of the 4 trials for the milk bottle was opened just a second or two more than the limit of 0.50 seconds and suggest the possibility that milk bottles could be opened in less than 0.50 seconds, our gyroscope design accounts for this potential complication due to its ability to detect changes in orientation. In our second experiment, we found that it took significantly longer to open the bottle and take accuracy into account (Table \ref{table:trial2}). Given that the fastest time was nearly three times more than the limit of 0.50 seconds, this offers strong evidence to support that it is near impossible to open the cap without triggering the sensor. While there is variability across our data, values that seem to be positive outliers can largely be attributed to human error.
+		
 		\addcontentsline{toc}{subsection}{Complete FMECA}
 		\subsection*{Complete FMECA}
 
@@ -287,8 +423,12 @@ Our three engineering teams (Software, Electrical, and Mechanical) will work tow
 			
 	\addcontentsline{toc}{section}{References}
 	\section*{References}
-	\setlength{\parindent}{0pt}
+
 	U.S. Plastic Corporation. (2003). How do I know how to calculate a cap \& neck size? Retrieved from https://www.usplastic.com/knowledgebase/article.aspx?contentkey=625. 
 	
 	International Society of Beverage Technologists, Thread Specs Standard. Retrieved from https://www.bevtech.org/threadspecs.asp
+	
+	ICOMold. (2017). Plastic Injection Mold Cost: ICOMold. Retrieved from https://icomold.com/much-injection-molding-cost/. 
+	
+	Fry, R. (2018). More U.S. adults now share their living space. Retrieved from https://www.pewresearch.org/fact-tank/2018/01/31/more-adults-now-share-their-living-space-driven-in-part-by-parents-living-with-their-adult-children/. 
 \end{document}
