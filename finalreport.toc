@@ -1,0 +1,33 @@
+\contentsline {section}{Abstract}{3}% 
+\contentsline {section}{Introduction}{3}% 
+\contentsline {section}{Market overview: Price / Performance}{4}% 
+\contentsline {subsection}{Price Performance Chart and Key Attribute Matrix}{5}% 
+\contentsline {subsection}{Competition}{6}% 
+\contentsline {subsection}{Key Attributes}{7}% 
+\contentsline {subsection}{Price}{7}% 
+\contentsline {section}{Product Overview}{7}% 
+\contentsline {subsection}{Usage}{8}% 
+\contentsline {subsection}{Technical Details}{8}% 
+\contentsline {subsection}{Access Detection and Notification}{10}% 
+\contentsline {subsection}{Initial Wi-Fi Setup and Notification Delivery}{10}% 
+\contentsline {subsection}{Mobile Application}{10}% 
+\contentsline {section}{Program Risk and Mitigation}{11}% 
+\contentsline {section}{Financial Summary}{12}% 
+\contentsline {subsection}{Key Milestones}{12}% 
+\contentsline {subsection}{Unit Cost Breakdown}{12}% 
+\contentsline {subsection}{Development Cost Breakdown}{14}% 
+\contentsline {subsection}{Break Even Quantity Analysis}{15}% 
+\contentsline {section}{Delivery Date and Key Milestones}{15}% 
+\contentsline {section}{Summary and Recommendations}{16}% 
+\contentsline {section}{Appendix}{18}% 
+\contentsline {subsection}{Unmet Need}{18}% 
+\contentsline {subsection}{Concept of Operations}{18}% 
+\contentsline {subsection}{Complete Specifications}{19}% 
+\contentsline {subsection}{Proof of Concept}{20}% 
+\contentsline {subsection}{Complete FMECA}{23}% 
+\contentsline {subsection}{PCB Quotes}{26}% 
+\contentsline {subsection}{Detailed Work Breakdown Structure}{29}% 
+\contentsline {subsection}{Detailed Bill of Materials}{30}% 
+\contentsline {subsection}{Break Even Calculations}{30}% 
+\contentsline {subsection}{Risk Inventory Calculations}{30}% 
+\contentsline {section}{References}{30}% 

@@ -1,0 +1,509 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  4 DEC 2019 03:07
+entering extended mode
+**./finalreport.tex
+(finalreport.tex
+LaTeX2e <2018-12-01>
+(G:\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(G:\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(G:\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(G:\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(G:\MiKTeX\tex/generic/oberdiek\ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(G:\MiKTeX\tex/generic/oberdiek\ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(G:\MiKTeX\tex/generic/ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+(G:\MiKTeX\tex/latex/geometry\geometry.cfg))
+(G:\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(G:\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(G:\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(G:\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(G:\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(G:\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip43
+\cftbeforetoctitleskip=\skip44
+\cftaftertoctitleskip=\skip45
+\cftbeforepartskip=\skip46
+\cftpartnumwidth=\skip47
+\cftpartindent=\skip48
+\cftbeforesecskip=\skip49
+\cftsecindent=\skip50
+\cftsecnumwidth=\skip51
+\cftbeforesubsecskip=\skip52
+\cftsubsecindent=\skip53
+\cftsubsecnumwidth=\skip54
+\cftbeforesubsubsecskip=\skip55
+\cftsubsubsecindent=\skip56
+\cftsubsubsecnumwidth=\skip57
+\cftbeforeparaskip=\skip58
+\cftparaindent=\skip59
+\cftparanumwidth=\skip60
+\cftbeforesubparaskip=\skip61
+\cftsubparaindent=\skip62
+\cftsubparanumwidth=\skip63
+\cftbeforeloftitleskip=\skip64
+\cftafterloftitleskip=\skip65
+\cftbeforefigskip=\skip66
+\cftfigindent=\skip67
+\cftfignumwidth=\skip68
+\c@lofdepth=\count91
+\c@lotdepth=\count92
+\cftbeforelottitleskip=\skip69
+\cftafterlottitleskip=\skip70
+\cftbeforetabskip=\skip71
+\cfttabindent=\skip72
+\cfttabnumwidth=\skip73
+)
+(G:\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(G:\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(G:\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip74
+
+For additional information on amsmath, use the `?' option.
+(G:\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(G:\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen113
+))
+(G:\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen114
+)
+(G:\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen115
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks19
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks20
+\eqnshift@=\dimen116
+\alignsep@=\dimen117
+\tagshift@=\dimen118
+\tagwidth@=\dimen119
+\totwidth@=\dimen120
+\lineht@=\dimen121
+\@envbody=\toks21
+\multlinegap=\skip75
+\multlinetaggap=\skip76
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(G:\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box29
+\beforetitleunit=\skip77
+\aftertitleunit=\skip78
+\ttl@plus=\dimen122
+\ttl@minus=\dimen123
+\ttl@toksa=\toks23
+\titlewidth=\dimen124
+\titlewidthlast=\dimen125
+\titlewidthfirst=\dimen126
+)
+(G:\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count105
+\float@exts=\toks24
+\float@box=\box30
+\@float@everytoks=\toks25
+\@floatcapt=\box31
+)
+(G:\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2019/10/08 v1.6180339 publication quality tables
+\heavyrulewidth=\dimen127
+\lightrulewidth=\dimen128
+\cmidrulewidth=\dimen129
+\belowrulesep=\dimen130
+\belowbottomsep=\dimen131
+\aboverulesep=\dimen132
+\abovetopsep=\dimen133
+\cmidrulesep=\dimen134
+\cmidrulekern=\dimen135
+\defaultaddspace=\dimen136
+\@cmidla=\count106
+\@cmidlb=\count107
+\@aboverulesep=\dimen137
+\@belowrulesep=\dimen138
+\@thisruleclass=\count108
+\@lastruleclass=\count109
+\@thisrulewidth=\dimen139
+)
+(G:\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+ (G:\MiKTeX\tex/latex/tools\array.sty
+Package: array 2018/11/13 v2.4j Tabular extension package (FMi)
+\col@sep=\dimen140
+\ar@mcellbox=\box32
+\extrarowheight=\dimen141
+\NC@list=\toks26
+\extratabsurround=\skip79
+\backup@length=\skip80
+\ar@cellbox=\box33
+)
+\TX@col@width=\dimen142
+\TX@old@table=\dimen143
+\TX@old@col=\dimen144
+\TX@target=\dimen145
+\TX@delta=\dimen146
+\TX@cols=\count110
+\TX@ftn=\toks27
+)
+(G:\MiKTeX\tex/latex/ltablex\ltablex.sty
+Package: ltablex 2014/08/13 v1.1 Modified tabularx
+
+(G:\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip81
+\LTright=\skip82
+\LTpre=\skip83
+\LTpost=\skip84
+\LTchunksize=\count111
+\LTcapwidth=\dimen147
+\LT@head=\box34
+\LT@firsthead=\box35
+\LT@foot=\box36
+\LT@lastfoot=\box37
+\LT@cols=\count112
+\LT@rows=\count113
+\c@LT@tables=\count114
+\c@LT@chunks=\count115
+\LT@p@ftn=\toks28
+)) (finalreport.aux)
+\openout1 = `finalreport.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(G:\MiKTeX\tex/context/base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count116
+\scratchdimen=\dimen148
+\scratchbox=\box38
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen149
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
+\everyMPtoPDFconversion=\toks30
+) (G:\MiKTeX\tex/latex/oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(G:\MiKTeX\tex/generic/oberdiek\infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(G:\MiKTeX\tex/latex/oberdiek\grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(G:\MiKTeX\tex/generic/oberdiek\kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(G:\MiKTeX\tex/generic/oberdiek\ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(G:\MiKTeX\tex/latex/oberdiek\kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(G:\MiKTeX\tex/generic/oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(G:\MiKTeX\tex/generic/oberdiek\etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(G:\MiKTeX\tex/generic/oberdiek\ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+(G:\MiKTeX\tex/generic/oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+) [1
+
+{C:/Users/write/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (finalrepor
+t.toc)
+\tf@toc=\write3
+\openout3 = `finalreport.toc'.
+
+ [2] [3]
+<e185ew.png, id=16, 462.528pt x 346.896pt>
+File: e185ew.png Graphic file (type png)
+<use e185ew.png>
+Package pdftex.def Info: e185ew.png  used on input line 71.
+(pdftex.def)             Requested size: 469.75502pt x 352.33655pt.
+<kam.png, id=18, 481.8pt x 229.60782pt>
+File: kam.png Graphic file (type png)
+<use kam.png>
+Package pdftex.def Info: kam.png  used on input line 76.
+(pdftex.def)             Requested size: 469.75502pt x 223.87547pt.
+ [4] [5 <./e185ew.png>] [6 <./kam.png (PNG copy)>] [7]
+<design.png, id=33, 355.92975pt x 324.61275pt>
+File: design.png Graphic file (type png)
+<use design.png>
+Package pdftex.def Info: design.png  used on input line 106.
+(pdftex.def)             Requested size: 469.75502pt x 428.44556pt.
+ [8]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 112.
+
+
+(G:\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 112.
+ [9 <./design.png>] [10] [11]
+<DesignLabeled.png, id=48, 355.92975pt x 324.61275pt>
+File: DesignLabeled.png Graphic file (type png)
+<use DesignLabeled.png>
+Package pdftex.def Info: DesignLabeled.png  used on input line 171.
+(pdftex.def)             Requested size: 284.52756pt x 259.50726pt.
+<bom_small.png, id=49, 537.50812pt x 223.58531pt>
+File: bom_small.png Graphic file (type png)
+<use bom_small.png>
+Package pdftex.def Info: bom_small.png  used on input line 176.
+(pdftex.def)             Requested size: 469.75502pt x 195.40465pt.
+ [12]
+<wbs_small.png, id=53, 556.32843pt x 380.17032pt>
+File: wbs_small.png Graphic file (type png)
+<use wbs_small.png>
+Package pdftex.def Info: wbs_small.png  used on input line 184.
+(pdftex.def)             Requested size: 469.75502pt x 321.01735pt.
+ [13 <./DesignLabeled.png> <./bom_small.png (PNG copy)>] [14 <./wbs_small.png (
+PNG copy)>]
+<milestones.png, id=62, 963.6pt x 722.7pt>
+File: milestones.png Graphic file (type png)
+<use milestones.png>
+Package pdftex.def Info: milestones.png  used on input line 207.
+(pdftex.def)             Requested size: 469.75502pt x 352.31758pt.
+ [15] [16 <./milestones.png>] [17] [18]
+<specs.png, id=76, 906.38625pt x 956.373pt>
+File: specs.png Graphic file (type png)
+<use specs.png>
+Package pdftex.def Info: specs.png  used on input line 250.
+(pdftex.def)             Requested size: 469.75502pt x 495.65321pt.
+ [19] [20 <./specs.png>] [21] [22]
+Underfull \vbox (badness 10000) detected at line 375
+ []
+
+[23] [24] [25]
+<quote1.png, id=102, 1095.09125pt x 1065.9825pt>
+File: quote1.png Graphic file (type png)
+<use quote1.png>
+Package pdftex.def Info: quote1.png  used on input line 381.
+(pdftex.def)             Requested size: 469.75502pt x 457.27376pt.
+<quote2.png, id=103, 1010.77625pt x 643.40375pt>
+File: quote2.png Graphic file (type png)
+<use quote2.png>
+Package pdftex.def Info: quote2.png  used on input line 385.
+(pdftex.def)             Requested size: 469.75502pt x 299.02257pt.
+ [26 <./quote1.png>]
+<quote3.png, id=108, 867.24pt x 733.74126pt>
+File: quote3.png Graphic file (type png)
+<use quote3.png>
+Package pdftex.def Info: quote3.png  used on input line 391.
+(pdftex.def)             Requested size: 469.75502pt x 397.44594pt.
+ [27 <./quote2.png>]
+<wbs_large3.png, id=113, 539.01375pt x 568.37344pt>
+File: wbs_large3.png Graphic file (type png)
+<use wbs_large3.png>
+Package pdftex.def Info: wbs_large3.png  used on input line 398.
+(pdftex.def)             Requested size: 469.75502pt x 495.34818pt.
+ [28 <./quote3.png>]
+<bom_large.png, id=118, 1130.72438pt x 223.58531pt>
+File: bom_large.png Graphic file (type png)
+<use bom_large.png>
+Package pdftex.def Info: bom_large.png  used on input line 404.
+(pdftex.def)             Requested size: 469.75502pt x 92.8851pt.
+
+[29 <./wbs_large3.png (PNG copy)>]
+<breakeven.png, id=122, 968.11688pt x 64.74188pt>
+File: breakeven.png Graphic file (type png)
+<use breakeven.png>
+Package pdftex.def Info: breakeven.png  used on input line 412.
+(pdftex.def)             Requested size: 469.75502pt x 31.41458pt.
+<risk.png, id=123, 682.80093pt x 77.53969pt>
+File: risk.png Graphic file (type png)
+<use risk.png>
+Package pdftex.def Info: risk.png  used on input line 419.
+(pdftex.def)             Requested size: 469.75502pt x 53.34624pt.
+
+Overfull \hbox (50.01738pt too wide) in paragraph at lines 431--432
+[]\OT1/cmr/m/n/12 ICOMold. (2017). Plas-tic In-jec-tion Mold Cost: ICO-Mold. Re
+-trieved from https://icomold.com/much-
+ []
+
+
+Overfull \hbox (100.6326pt too wide) in paragraph at lines 433--434
+[]\OT1/cmr/m/n/12 Fry, R. (2018). More U.S. adults now share their liv-ing spac
+e. Re-trieved from https://www.pewresearch.org/fact-
+ []
+
+
+Overfull \hbox (0.82759pt too wide) in paragraph at lines 433--434
+\OT1/cmr/m/n/12 tank/2018/01/31/more-adults-now-share-their-living-space-driven
+-in-part-by-parents-living-
+ []
+
+[30 <./bom_large.png (PNG copy)> <./breakeven.png (PNG copy)> <./risk.png (PNG 
+copy)>] [31] (finalreport.aux) ) 
+Here is how much of TeX's memory you used:
+ 3543 strings out of 492946
+ 46643 string characters out of 3143495
+ 183859 words of memory out of 3000000
+ 7364 multiletter control sequences out of 15000+200000
+ 10541 words of font info for 38 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,8n,32p,1462b,273s stack positions out of 5000i,500n,10000p,200000b,50000s
+<G:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb><G:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><G:/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><G:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><G:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><G:/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr8.pfb><G:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb>
+Output written on finalreport.pdf (31 pages, 1102398 bytes).
+PDF statistics:
+ 154 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+
